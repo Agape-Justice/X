@@ -86,7 +86,7 @@ span{
 
 /*----------------------------home section -------------------------------*/
 .home{
-	width:100%;
+	width:auto;
 	height:90vh;
 	background-color:#191919;
 	justify-content:space-around;
