@@ -21,8 +21,9 @@
 	position:sticky;
 	z-index:100;
 	width:100%;
-	
+
 }
+
 
 .navbar ul{
 
@@ -30,7 +31,7 @@
 	float:right;
 	margin-right:10%;
 	margin-top:5px;
-	overflow:hidden;
+	
 
 }
 
@@ -47,6 +48,7 @@ a:hover{
 	padding:5px 10px 0 10px;
 	margin-left:10px;
 	margin-bottom:10px;
+
 }
 
 .navbar li:hover{
@@ -87,7 +89,7 @@ span{
 /*----------------------------home section -------------------------------*/
 .home{
 	width:auto;
-	height:90vh;
+	height:95vh;
 	background-color:#191919;
 	justify-content:space-around;
 	display:flex;
@@ -362,6 +364,8 @@ button{
 	.navbar{
 		z-index:1010;
 	}
+
+
 	
 
 }
@@ -370,12 +374,12 @@ button{
 @media (max-width: 858px){
 
 	.home{
+		
 		display:block;
 		padding:5%;
 		height:auto;
 		display: flex;
 		flex-wrap:wrap;
-		
 	
 	}
 
@@ -422,49 +426,35 @@ button{
 
 @media (max-width:660px){
 
-
-
 	.navlist{
 		display:none;
+
+	}
+	.menu{
+		display:block;
+		margin-right:55%;
+		right:20%;
+		left:120%;
 	}
 
 	.dropdown{
 		display:block;
-		position:relative;
 	}
-
-	.menu{
-		padding-right:0px;
-		margin-right:0px;
-		
-	}
-
-	.dropdown-content{
-		display:block;
-		padding:12% 16%;
-		position:absolute;
-
-	}	
 
 	.dropdown-content ul{
 		display:block;
-		margin-right:95%;
-		margin-top:14%;
 		background-color:black;
-		padding:12px 16px;
 		border:2px solid white;
+		padding:12px 16px;
+		margin-top:20%;
 		display:none;
-		transition-delay:6s;
-		z-index:1;
+
 	}
 
 
 	.dropdown:hover ul{
 		display:block;
-		transition:8s ease-in;
 	}
-	
-	
 
 	.hero{
 		margin-left:5%;
@@ -501,7 +491,7 @@ button{
 
 	.menu{	
 		display:block;
-		padding: 2% 5% 10% 0;
+		padding:5%;
 		cursor:pointer;
 	}
 	
